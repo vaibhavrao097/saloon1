@@ -73,9 +73,22 @@ body {
 .brand {
   color: inherit;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+}
+
+.brand-text {
   display: flex;
   flex-direction: column;
-  line-height: 1;
+}
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(23, 19, 18, 0.18);
 }
 
 .brand-top {
@@ -739,5 +752,11 @@ h4 {
   .pricing-hero {
     padding: 18px;
     border-radius: 16px;
+  }
+
+  .brand-logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
   }
 }

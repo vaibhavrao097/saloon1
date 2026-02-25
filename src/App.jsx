@@ -453,8 +453,11 @@ function Layout({ children }) {
 
       <header className="site-header container">
         <Link className="brand" to="/">
-          <span className="brand-top">IVORY GLAM</span>
-          <span className="brand-main">Studio</span>
+          <img className="brand-logo" src="/ivory-glam-logo.svg" alt="Ivory Glam Studio logo" />
+          <span className="brand-text">
+            <span className="brand-top">IVORY GLAM</span>
+            <span className="brand-main">Studio</span>
+          </span>
         </Link>
 
         <button
@@ -549,7 +552,7 @@ function HomePage() {
           </ul>
           <div className="stats">
             <article>
-              <h2>4.9/5</h2>
+              <h2>4.7+</h2>
               <p>Average Rating</p>
             </article>
             <article>
