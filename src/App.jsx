@@ -453,7 +453,7 @@ function Layout({ children }) {
 
       <header className="site-header container">
         <Link className="brand" to="/">
-          <img className="brand-logo" src="/ivory-glam-logo.svg" alt="Ivory Glam Studio logo" />
+          <img className="brand-logo" src="/ivory-glam-logo.svg" alt="IGS logo" />
           <span className="brand-text">
             <span className="brand-top">IVORY GLAM</span>
             <span className="brand-main">Studio</span>
